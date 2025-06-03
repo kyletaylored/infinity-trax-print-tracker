@@ -1,0 +1,1739 @@
+[
+    {
+        "id": "archimedes-screw-lift-left",
+        "name": "Archimedes Screw Lift - Left",
+        "metadata": {
+            "orientation": "left",
+            "description": "Return your marble to the top for an endless loop."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "archimedes-screw-lift-core---a-95-infill-and-brim-stl",
+                "name": "Archimedes Screw Lift Core - A (95 infill and brim).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": true,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-housing-left---a-stl",
+                "name": "Archimedes Screw Lift Housing (Left) - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-housing-left---b-stl",
+                "name": "Archimedes Screw Lift Housing (Left) - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-larger-switch-optional-stl",
+                "name": "Archimedes screw Lift Larger switch (optional).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": true,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "hitter-stl",
+                "name": "Hitter.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "archimedes-screw-lift-right",
+        "name": "Archimedes Screw Lift - Right",
+        "metadata": {
+            "orientation": "right",
+            "description": "Return your marble to the top for an endless loop."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "archimedes-screw-lift-core---a-95-infill-and-brim-stl",
+                "name": "Archimedes Screw Lift Core - A (95 infill and brim).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": true,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-housing-right---a-stl",
+                "name": "Archimedes Screw Lift Housing (Right) - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-housing-right---b-stl",
+                "name": "Archimedes Screw Lift Housing (Right) - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-larger-switch-optional-stl",
+                "name": "Archimedes screw Lift Larger switch (optional).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": true,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "hitter-stl",
+                "name": "Hitter.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "archimedes-screw-lift-extension-left",
+        "name": "Archimedes Screw Lift Extension - Left",
+        "metadata": {
+            "orientation": "left",
+            "description": "Up to 5 modular extensions can be added to each powered screw lift."
+        },
+        "dependencies": [
+            "archimedes-screw-lift-left"
+        ],
+        "sub_parts": [
+            {
+                "id": "archimedes-extension-left---b-stl",
+                "name": "Archimedes Extension (Left) - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-extension---a-stl",
+                "name": "Archimedes Extension - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-extenson---a-95-infill-and-brim-stl",
+                "name": "Archimedes Screw Lift Extenson - A (95 Infill and brim).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": true,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "archimedes-screw-lift-extension-right",
+        "name": "Archimedes Screw Lift Extension - Right",
+        "metadata": {
+            "orientation": "right",
+            "description": "Up to 5 modular extensions can be added to each powered screw lift."
+        },
+        "dependencies": [
+            "archimedes-screw-lift-right"
+        ],
+        "sub_parts": [
+            {
+                "id": "archimedes-extension-right---b-stl",
+                "name": "Archimedes Extension (Right) - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-extension---a-stl",
+                "name": "Archimedes Extension - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimedes-screw-lift-extenson---a-95-infill-and-brim-stl",
+                "name": "Archimedes Screw Lift Extenson - A (95 Infill and brim).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": true,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "archimedes-racing-upgrades",
+        "name": "Archimedes racing upgrades",
+        "metadata": {
+            "orientation": "none",
+            "description": "Switch to start the race."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "archimedes-lid---b-stl",
+                "name": "Archimedes Lid - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "archimeds-lid---a-stl",
+                "name": "Archimeds lid - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "audio",
+        "name": "Audio",
+        "metadata": {
+            "orientation": "none",
+            "description": "Record anything you want and it plays when the marble goes through the tunnel."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "audio---a-stl",
+                "name": "Audio - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "audio---b-support-stl",
+                "name": "Audio - B (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "corner",
+        "name": "Corner",
+        "metadata": {
+            "orientation": "none",
+            "description": "Go around corners with ease."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "corner---a-stl",
+                "name": "Corner - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "corner---b-stl",
+                "name": "Corner - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "double-back-flip",
+        "name": "Double Back Flip",
+        "metadata": {
+            "orientation": "none",
+            "description": "Make it go upside down!"
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "double-back-flip---a-support-stl",
+                "name": "Double Back Flip - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "double-back-flip---b-support-stl",
+                "name": "Double Back Flip - B (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "flex-track",
+        "name": "Flex Track",
+        "metadata": {
+            "orientation": "none",
+            "description": "The perfect track section for free form design."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "flex---a-stl",
+                "name": "Flex - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "flex---b-stl",
+                "name": "Flex - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "flip-down-letters-letter-mechanism",
+        "name": "Flip Down Letters - Letter Mechanism",
+        "metadata": {
+            "orientation": "none",
+            "description": "The mechanism that makes the letters flip down."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "flip-letter---a-stl",
+                "name": "Flip Letter - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "flip-letter---b-stl",
+                "name": "Flip letter - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "space---a-stl",
+                "name": "Space - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "space---b-stl",
+                "name": "Space - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "flip-down-letters-letters",
+        "name": "Flip Down Letters - Letters",
+        "metadata": {
+            "orientation": "none",
+            "description": "A fun way to spell out your message."
+        },
+        "dependencies": [
+            "flip-down-letters-letter-mechanism"
+        ],
+        "sub_parts": [
+            {
+                "id": "0-stl",
+                "name": "0.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "1-stl",
+                "name": "1.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "2-stl",
+                "name": "2.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "3-stl",
+                "name": "3.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "4-stl",
+                "name": "4.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "5-stl",
+                "name": "5.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "6-stl",
+                "name": "6.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "7-stl",
+                "name": "7.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "8-stl",
+                "name": "8.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "9-stl",
+                "name": "9.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "a-stl",
+                "name": "A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "b-stl",
+                "name": "B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "c-stl",
+                "name": "C.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "comma-stl",
+                "name": "Comma.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "d-stl",
+                "name": "D.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "e-stl",
+                "name": "E.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "exclamation-mark-stl",
+                "name": "Exclamation mark.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "f-stl",
+                "name": "F.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "g-stl",
+                "name": "G.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "h-stl",
+                "name": "H.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "i-stl",
+                "name": "I.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "j-stl",
+                "name": "J.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "k-stl",
+                "name": "K.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "l-stl",
+                "name": "L.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "m-stl",
+                "name": "M.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "n-stl",
+                "name": "N.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "o-stl",
+                "name": "O.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "p-stl",
+                "name": "P.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "q-stl",
+                "name": "Q.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "question-mark-stl",
+                "name": "Question Mark.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "r-stl",
+                "name": "R.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "s-stl",
+                "name": "S.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "smiley-sad-emoji-stl",
+                "name": "Smiley Sad Emoji.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "t-stl",
+                "name": "T.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "u-stl",
+                "name": "U.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "v-stl",
+                "name": "V.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "w-stl",
+                "name": "W.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "x-stl",
+                "name": "X.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "y-stl",
+                "name": "Y.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "z-stl",
+                "name": "Z.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "led-section",
+        "name": "LED section",
+        "metadata": {
+            "orientation": "none",
+            "description": "Lights up when a marble hits it. How cool is that?"
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "led-section---a-stl",
+                "name": "LED Section - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "led-section---b-stl",
+                "name": "LED Section - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "large-straight-20cm",
+        "name": "Large straight (20cm)",
+        "metadata": {
+            "orientation": "none",
+            "description": "Key component to building larger tracks."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "large-straight-20cm---a-stl",
+                "name": "Large Straight (20cm) - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "large-straight-20cm---b-stl",
+                "name": "Large Straight (20cm) - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "manual-launcher",
+        "name": "Manual Launcher",
+        "metadata": {
+            "orientation": "none",
+            "description": "Launch your marble manually."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "manual-launcher---a-support-stl",
+                "name": "Manual Launcher - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "manual-launcher---b-stl",
+                "name": "Manual Launcher - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "marble-sorter",
+        "name": "Marble sorter",
+        "metadata": {
+            "orientation": "none",
+            "description": "Generic part."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "marble-sorter-stl",
+                "name": "Marble sorter.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mini-bend",
+        "name": "Mini Bend",
+        "metadata": {
+            "orientation": "none",
+            "description": "A smaller curve to get your marble moving."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "mini-bend---a-stl",
+                "name": "Mini Bend - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "mini-bend---b-stl",
+                "name": "Mini Bend - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "mini-straight-10cm",
+        "name": "Mini Straight (10cm)",
+        "metadata": {
+            "orientation": "none",
+            "description": "A mini straight section to get your marble moving."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "mini-straight---a-stl",
+                "name": "Mini Straight - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "mini-straight---b-stl",
+                "name": "Mini Straight - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "orbit-left",
+        "name": "Orbit - Left",
+        "metadata": {
+            "orientation": "left",
+            "description": "Round and round we go until we run out of energy and move onto the next plane."
+        },
+        "dependencies": [
+            "orbit-return-left"
+        ],
+        "sub_parts": [
+            {
+                "id": "orbit-left---a-support-stl",
+                "name": "Orbit left - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "orbit-left---b-stl",
+                "name": "Orbit left - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "orbit-right",
+        "name": "Orbit - Right",
+        "metadata": {
+            "orientation": "right",
+            "description": "Round and round we go until we run out of energy and move onto the next plane."
+        },
+        "dependencies": [
+            "orbit-return-right"
+        ],
+        "sub_parts": [
+            {
+                "id": "orbit-right---a-support-stl",
+                "name": "Orbit right - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "orbit-right---b-stl",
+                "name": "Orbit right - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "orbit-return-left",
+        "name": "Orbit return - Left",
+        "metadata": {
+            "orientation": "left",
+            "description": "Round and round we go until we run out of energy and move onto the next plane."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "orbit-return-left-support---a-stl",
+                "name": "Orbit Return left (support) - A.stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "orbit-return-left---b-stl",
+                "name": "Orbit Return left - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "orbit-return-right",
+        "name": "Orbit return - Right",
+        "metadata": {
+            "orientation": "right",
+            "description": "Round and round we go until we run out of energy and move onto the next plane."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "orbit-return-right-support---a-stl",
+                "name": "Orbit Return right (support) - A.stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "orbit-reurn-right---b-stl",
+                "name": "Orbit Reurn right - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "overtaking-section-overtaking-left-to-right",
+        "name": "Overtaking Section - Overtaking left to right",
+        "metadata": {
+            "orientation": "left",
+            "description": "Entering the overtaking maze in first place means very little."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "overtaking---b-stl",
+                "name": "Overtaking - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "overtaking-entry-left-to-right---a-stl",
+                "name": "Overtaking Entry left to right - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "overtaking-exit-left-to-right---a-stl",
+                "name": "Overtaking Exit left to right - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "support-bracket---a-stl",
+                "name": "Support bracket - A.stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "overtaking-section-overtaking-right-to-left",
+        "name": "Overtaking Section - Overtaking right to left",
+        "metadata": {
+            "orientation": "left",
+            "description": "Entering the overtaking maze in first place means very little."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "overtaking---b-stl",
+                "name": "Overtaking - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "overtaking-entry-right-to-left---a-stl",
+                "name": "Overtaking entry right to left - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "overtaking-exit-right-to-left---a-stl",
+                "name": "Overtaking exit right to left - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "support-bracket---a-stl",
+                "name": "Support bracket - A.stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "stairs",
+        "name": "Stairs",
+        "metadata": {
+            "orientation": "none",
+            "description": "Every single step forward is important."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "stairs---a-stl",
+                "name": "Stairs - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "stairs---b-stl",
+                "name": "Stairs - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "start-gate",
+        "name": "Start Gate",
+        "metadata": {
+            "orientation": "none",
+            "description": "The start of the track!"
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "start-gate-1---a-stl",
+                "name": "Start Gate 1 - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "start-gate-1---b-stl",
+                "name": "Start Gate 1 - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "start-gate-2---a-stl",
+                "name": "Start Gate 2 - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "start-gate-2---b-stl",
+                "name": "Start Gate 2 - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-arm",
+        "name": "The Arm",
+        "metadata": {
+            "orientation": "none",
+            "description": "A simple arm to move your marble to the next section."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-arm---a-95-infill-stl",
+                "name": "The Arm - A (95 infill).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-arm---a-support-stl",
+                "name": "The Arm - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-arm---b-stl",
+                "name": "The Arm - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-hill",
+        "name": "The Hill",
+        "metadata": {
+            "orientation": "none",
+            "description": "Journey over obstacles to reach your destination."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-hill---a-support-stl",
+                "name": "The Hill - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-hill---b-stl",
+                "name": "The Hill - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-switch",
+        "name": "The Switch",
+        "metadata": {
+            "orientation": "none",
+            "description": "Take a different path to your destination."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-switch---a-stl",
+                "name": "The Switch - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-switch---b-stl",
+                "name": "The Switch - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-switchback",
+        "name": "The Switchback",
+        "metadata": {
+            "orientation": "none",
+            "description": "Sometimes going backwards is the best way to go forward."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-switchback---a-95-infill-stl",
+                "name": "The Switchback - A (95 infill).stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-switchback---a-stl",
+                "name": "The Switchback - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-switchback---b-stl",
+                "name": "The Switchback - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-valley",
+        "name": "The Valley",
+        "metadata": {
+            "orientation": "none",
+            "description": "Whenever we go down, we always come out the other side."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-valley---a-support-stl",
+                "name": "The Valley - A (support).stl",
+                "metadata": {
+                    "support": true,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-valley---b-stl",
+                "name": "The Valley - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "the-wheel",
+        "name": "The Wheel",
+        "metadata": {
+            "orientation": "none",
+            "description": "Go round and round."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "the-wheel---a-stl",
+                "name": "The Wheel - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "the-wheel---b-stl",
+                "name": "The Wheel - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "third-dimension",
+        "name": "Third Dimension",
+        "metadata": {
+            "orientation": "none",
+            "description": "Route around obstacles in 3D."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "third-dimension---a-stl",
+                "name": "Third Dimension - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "third-dimension---b-stl",
+                "name": "Third Dimension - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "third-dimension-stretched",
+        "name": "Third Dimension Stretched",
+        "metadata": {
+            "orientation": "none",
+            "description": "Route around obstacles in 3D."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "third-dimension-stretched---a-stl",
+                "name": "Third Dimension Stretched - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "third-dimension-stretched---b-stl",
+                "name": "Third Dimension Stretched - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    },
+    {
+        "id": "zig-zag",
+        "name": "Zig Zag",
+        "metadata": {
+            "orientation": "none",
+            "description": "A zig-zag section to get your marble moving."
+        },
+        "dependencies": [],
+        "sub_parts": [
+            {
+                "id": "zig-zag---a-stl",
+                "name": "Zig-Zag - A.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            },
+            {
+                "id": "zig-zag---b-stl",
+                "name": "Zig-Zag - B.stl",
+                "metadata": {
+                    "support": false,
+                    "brim": false,
+                    "optional": false,
+                    "color_type": "A",
+                    "infill": "15%"
+                }
+            }
+        ]
+    }
+]
