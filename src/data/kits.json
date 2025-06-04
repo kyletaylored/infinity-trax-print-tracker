@@ -1,0 +1,184 @@
+[
+    {
+        "id": "turing-edition",
+        "name": "Turing Edition",
+        "description": "The flagship marble run kit featuring a full suite of interactive elements and classic track pieces.",
+        "parts": [
+            {
+                "part_id": "the-valley",
+                "qty": 3
+            },
+            {
+                "part_id": "flex-track",
+                "qty": 3
+            },
+            {
+                "part_id": "manual-launcher",
+                "qty": 1
+            },
+            {
+                "part_id": "double-back-flip",
+                "qty": 1
+            },
+            {
+                "part_id": "the-switchback",
+                "qty": 1
+            },
+            {
+                "part_id": "third-dimension",
+                "qty": 2
+            },
+            {
+                "part_id": "the-wheel",
+                "qty": 3
+            },
+            {
+                "part_id": "the-hill",
+                "qty": 1
+            },
+            {
+                "part_id": "the-switch",
+                "qty": 1
+            },
+            {
+                "part_id": "large-straight-20cm",
+                "qty": 6
+            },
+            {
+                "part_id": "mini-straight-10cm",
+                "qty": 16
+            },
+            {
+                "part_id": "led-section",
+                "qty": 1
+            },
+            {
+                "part_id": "stairs",
+                "qty": 2
+            },
+            {
+                "part_id": "corner",
+                "qty": 2
+            },
+            {
+                "part_id": "orbit-left",
+                "qty": 3
+            },
+            {
+                "part_id": "orbit-right",
+                "qty": 3
+            },
+            {
+                "part_id": "the-arm",
+                "qty": 3
+            },
+            {
+                "part_id": "mini-bend",
+                "qty": 6
+            },
+            {
+                "part_id": "archimedes-screw-lift-left",
+                "qty": 1
+            },
+            {
+                "part_id": "archimedes-screw-lift-right",
+                "qty": 1
+            },
+            {
+                "part_id": "archimedes-screw-lift-extension-left",
+                "qty": 2
+            },
+            {
+                "part_id": "archimedes-screw-lift-extension-right",
+                "qty": 2
+            },
+            {
+                "part_id": "audio",
+                "qty": 1
+            }
+        ]
+    },
+    {
+        "id": "newton-edition",
+        "name": "Newton Edition",
+        "description": "A core marble run kit with the essentials for creative builds.",
+        "parts": [
+            {
+                "part_id": "the-valley",
+                "qty": 3
+            },
+            {
+                "part_id": "flex-track",
+                "qty": 3
+            },
+            {
+                "part_id": "manual-launcher",
+                "qty": 1
+            },
+            {
+                "part_id": "double-back-flip",
+                "qty": 1
+            },
+            {
+                "part_id": "the-switchback",
+                "qty": 1
+            },
+            {
+                "part_id": "third-dimension",
+                "qty": 2
+            },
+            {
+                "part_id": "the-wheel",
+                "qty": 3
+            },
+            {
+                "part_id": "the-hill",
+                "qty": 1
+            },
+            {
+                "part_id": "the-switch",
+                "qty": 1
+            },
+            {
+                "part_id": "large-straight-20cm",
+                "qty": 6
+            },
+            {
+                "part_id": "mini-straight-10cm",
+                "qty": 10
+            },
+            {
+                "part_id": "led-section",
+                "qty": 1
+            },
+            {
+                "part_id": "stairs",
+                "qty": 2
+            },
+            {
+                "part_id": "corner",
+                "qty": 2
+            },
+            {
+                "part_id": "orbit-left",
+                "qty": 3
+            },
+            {
+                "part_id": "orbit-right",
+                "qty": 3
+            },
+            {
+                "part_id": "the-arm",
+                "qty": 3
+            },
+            {
+                "part_id": "curve",
+                "qty": 4
+            },
+            {
+                "part_id": "mini-bend",
+                "qty": 6
+            }
+        ]
+    }
+]

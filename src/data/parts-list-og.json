@@ -2,7 +2,6 @@
     {
         "id": "archimedes-screw-lift-left",
         "name": "Archimedes Screw Lift - Left",
-        "image": "images/archimedes-screw-lift.png",
         "metadata": {
             "orientation": "left",
             "description": "Return your marble to the top for an endless loop."
@@ -17,7 +16,7 @@
                     "brim": true,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             },
             {
@@ -69,7 +68,6 @@
     {
         "id": "archimedes-screw-lift-right",
         "name": "Archimedes Screw Lift - Right",
-        "image": "images/archimedes-screw-lift.png",
         "metadata": {
             "orientation": "right",
             "description": "Return your marble to the top for an endless loop."
@@ -84,7 +82,7 @@
                     "brim": true,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             },
             {
@@ -136,7 +134,6 @@
     {
         "id": "archimedes-screw-lift-extension-left",
         "name": "Archimedes Screw Lift Extension - Left",
-        "image": "images/archimedes-screw-lift-extension.png",
         "metadata": {
             "orientation": "left",
             "description": "Up to 5 modular extensions can be added to each powered screw lift."
@@ -175,7 +172,7 @@
                     "brim": true,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             }
         ]
@@ -183,7 +180,6 @@
     {
         "id": "archimedes-screw-lift-extension-right",
         "name": "Archimedes Screw Lift Extension - Right",
-        "image": "images/archimedes-screw-lift-extension.png",
         "metadata": {
             "orientation": "right",
             "description": "Up to 5 modular extensions can be added to each powered screw lift."
@@ -222,7 +218,7 @@
                     "brim": true,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             }
         ]
@@ -230,7 +226,6 @@
     {
         "id": "archimedes-racing-upgrades",
         "name": "Archimedes racing upgrades",
-        "image": "images/archimedes-racing-upgrades.png",
         "metadata": {
             "orientation": "none",
             "description": "Switch to start the race."
@@ -264,7 +259,6 @@
     {
         "id": "audio",
         "name": "Audio",
-        "image": "images/audio.png",
         "metadata": {
             "orientation": "none",
             "description": "Record anything you want and it plays when the marble goes through the tunnel."
@@ -298,7 +292,6 @@
     {
         "id": "corner",
         "name": "Corner",
-        "image": "images/corner.png",
         "metadata": {
             "orientation": "none",
             "description": "Go around corners with ease."
@@ -332,7 +325,6 @@
     {
         "id": "double-back-flip",
         "name": "Double Back Flip",
-        "image": "images/double-back-flip.png",
         "metadata": {
             "orientation": "none",
             "description": "Make it go upside down!"
@@ -366,7 +358,6 @@
     {
         "id": "flex-track",
         "name": "Flex Track",
-        "image": "images/flex-track.png",
         "metadata": {
             "orientation": "none",
             "description": "The perfect track section for free form design."
@@ -400,7 +391,6 @@
     {
         "id": "flip-down-letters-letter-mechanism",
         "name": "Flip Down Letters - Letter Mechanism",
-        "image": "images/letters.png",
         "metadata": {
             "orientation": "none",
             "description": "The mechanism that makes the letters flip down."
@@ -456,7 +446,6 @@
     {
         "id": "flip-down-letters-letters",
         "name": "Flip Down Letters - Letters",
-        "image": "images/letters.png",
         "metadata": {
             "orientation": "none",
             "description": "A fun way to spell out your message."
@@ -910,7 +899,6 @@
     {
         "id": "led-section",
         "name": "LED section",
-        "image": "images/led-section.png",
         "metadata": {
             "orientation": "none",
             "description": "Lights up when a marble hits it. How cool is that?"
@@ -944,7 +932,6 @@
     {
         "id": "large-straight-20cm",
         "name": "Large straight (20cm)",
-        "image": "images/large-straight-20cm.png",
         "metadata": {
             "orientation": "none",
             "description": "Key component to building larger tracks."
@@ -978,7 +965,6 @@
     {
         "id": "manual-launcher",
         "name": "Manual Launcher",
-        "image": "images/manual-launcher.png",
         "metadata": {
             "orientation": "none",
             "description": "Launch your marble manually."
@@ -1012,7 +998,6 @@
     {
         "id": "marble-sorter",
         "name": "Marble sorter",
-        "image": "images/marble-sorter.png",
         "metadata": {
             "orientation": "none",
             "description": "Generic part."
@@ -1035,7 +1020,6 @@
     {
         "id": "mini-bend",
         "name": "Mini Bend",
-        "image": "images/curve.png",
         "metadata": {
             "orientation": "none",
             "description": "A smaller curve to get your marble moving."
@@ -1069,7 +1053,6 @@
     {
         "id": "mini-straight-10cm",
         "name": "Mini Straight (10cm)",
-        "image": "images/mini-straight-10cm.png",
         "metadata": {
             "orientation": "none",
             "description": "A mini straight section to get your marble moving."
@@ -1103,7 +1086,6 @@
     {
         "id": "orbit-left",
         "name": "Orbit - Left",
-        "image": "images/orbit.png",
         "metadata": {
             "orientation": "left",
             "description": "Round and round we go until we run out of energy and move onto the next plane."
@@ -1139,7 +1121,6 @@
     {
         "id": "orbit-right",
         "name": "Orbit - Right",
-        "image": "images/orbit.png",
         "metadata": {
             "orientation": "right",
             "description": "Round and round we go until we run out of energy and move onto the next plane."
@@ -1175,7 +1156,6 @@
     {
         "id": "orbit-return-left",
         "name": "Orbit return - Left",
-        "image": "images/orbit-return.png",
         "metadata": {
             "orientation": "left",
             "description": "Round and round we go until we run out of energy and move onto the next plane."
@@ -1209,7 +1189,6 @@
     {
         "id": "orbit-return-right",
         "name": "Orbit return - Right",
-        "image": "images/orbit-return.png",
         "metadata": {
             "orientation": "right",
             "description": "Round and round we go until we run out of energy and move onto the next plane."
@@ -1243,7 +1222,6 @@
     {
         "id": "overtaking-section-overtaking-left-to-right",
         "name": "Overtaking Section - Overtaking left to right",
-        "image": "images/overtaking-section.png",
         "metadata": {
             "orientation": "left",
             "description": "Entering the overtaking maze in first place means very little."
@@ -1299,7 +1277,6 @@
     {
         "id": "overtaking-section-overtaking-right-to-left",
         "name": "Overtaking Section - Overtaking right to left",
-        "image": "images/overtaking-section.png",
         "metadata": {
             "orientation": "left",
             "description": "Entering the overtaking maze in first place means very little."
@@ -1355,7 +1332,6 @@
     {
         "id": "stairs",
         "name": "Stairs",
-        "image": "images/stairs.png",
         "metadata": {
             "orientation": "none",
             "description": "Every single step forward is important."
@@ -1389,7 +1365,6 @@
     {
         "id": "start-gate",
         "name": "Start Gate",
-        "image": "images/start-gate.png",
         "metadata": {
             "orientation": "none",
             "description": "The start of the track!"
@@ -1445,7 +1420,6 @@
     {
         "id": "the-arm",
         "name": "The Arm",
-        "image": "images/the-arm.png",
         "metadata": {
             "orientation": "none",
             "description": "A simple arm to move your marble to the next section."
@@ -1460,7 +1434,7 @@
                     "brim": false,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             },
             {
@@ -1490,7 +1464,6 @@
     {
         "id": "the-hill",
         "name": "The Hill",
-        "image": "images/the-hill.png",
         "metadata": {
             "orientation": "none",
             "description": "Journey over obstacles to reach your destination."
@@ -1524,7 +1497,6 @@
     {
         "id": "the-switch",
         "name": "The Switch",
-        "image": "images/the-switch.png",
         "metadata": {
             "orientation": "none",
             "description": "Take a different path to your destination."
@@ -1558,7 +1530,6 @@
     {
         "id": "the-switchback",
         "name": "The Switchback",
-        "image": "images/the-switchback.png",
         "metadata": {
             "orientation": "none",
             "description": "Sometimes going backwards is the best way to go forward."
@@ -1573,7 +1544,7 @@
                     "brim": false,
                     "optional": false,
                     "color_type": "A",
-                    "infill": "95%"
+                    "infill": "15%"
                 }
             },
             {
@@ -1603,7 +1574,6 @@
     {
         "id": "the-valley",
         "name": "The Valley",
-        "image": "images/the-valley.png",
         "metadata": {
             "orientation": "none",
             "description": "Whenever we go down, we always come out the other side."
@@ -1637,7 +1607,6 @@
     {
         "id": "the-wheel",
         "name": "The Wheel",
-        "image": "images/the-wheel.png",
         "metadata": {
             "orientation": "none",
             "description": "Go round and round."
@@ -1671,7 +1640,6 @@
     {
         "id": "third-dimension",
         "name": "Third Dimension",
-        "image": "images/third-dimension.png",
         "metadata": {
             "orientation": "none",
             "description": "Route around obstacles in 3D."
@@ -1705,7 +1673,6 @@
     {
         "id": "third-dimension-stretched",
         "name": "Third Dimension Stretched",
-        "image": "images/third-dimension.png",
         "metadata": {
             "orientation": "none",
             "description": "Route around obstacles in 3D."
@@ -1739,7 +1706,6 @@
     {
         "id": "zig-zag",
         "name": "Zig Zag",
-        "image": "images/zig-zag.png",
         "metadata": {
             "orientation": "none",
             "description": "A zig-zag section to get your marble moving."

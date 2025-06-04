@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 /**
  * Normalize the name of a part.
@@ -57,6 +57,41 @@ async function getDescription(partId) {
 }
 
 /**
+ * Get the image of a part.
+ * @param {string} partId - The id of the part.
+ * @returns {string} - The image of the part.
+ */
+function getImage(partId) {
+    let image = partId;
+
+    if (partId.includes('mini-bend')) {
+        image = 'curve';
+    }
+    if (partId.includes('flip-down-letters')) {
+        image = 'letters';
+    }
+    if (partId === 'orbit-right' || partId === 'orbit-left') {
+        image = 'orbit';
+    }
+    if (partId.includes('orbit-return')) {
+        image = 'orbit-return';
+    }
+    if (partId.includes('archimedes-screw-lift-extension-left') || partId.includes('archimedes-screw-lift-extension-right')) {
+        image = 'archimedes-screw-lift-extension';
+    }
+    if (partId.includes('archimedes-screw-lift') && !partId.includes('extension')) {
+        image = 'archimedes-screw-lift';
+    }
+    if (partId.includes('overtaking-section')) {
+        image = 'overtaking-section';
+    }
+    if (partId.includes('third-dimension')) {
+        image = 'third-dimension';
+    }
+
+    return `images/${image}.png`;
+}
+/**
  * Parse the metadata of a part.
  * @param {string} fileName - The name of the file.
  * @returns {Object} - The metadata of the part.
@@ -77,9 +112,9 @@ function parseFileName(fileName) {
         metadata.support = true;
     }
     if (fileName.toLowerCase().includes('infill')) {
-        const infillMatch = fileName.match(/\d+%/);
+        const infillMatch = fileName.match(/\d+/);
         if (infillMatch) {
-            metadata.infill = infillMatch[0];
+            metadata.infill = infillMatch[0] + "%";
         }
     }
     if (fileName.toLowerCase().includes('brim')) {
@@ -181,7 +216,7 @@ async function processDirectory(dirPath, partDir, subDir, id) {
     const part = {
         id: id,
         name: subDir ? `${partDir.replace(/[_-]/g, ' ')} - ${subDir}` : `${partDir.replace(/[_-]/g, ' ')}`,
-        image: `https://marble-track-parts.s3.us-east-1.amazonaws.com/${partDir}/${subDir}/image.png`,
+        image: getImage(id),
         metadata: {
             orientation: subDir.toLowerCase().includes('left') ? 'left' : subDir.toLowerCase().includes('right') ? 'right' : 'none',
             description: await getDescription(id)
@@ -217,7 +252,7 @@ async function processDirectory(dirPath, partDir, subDir, id) {
         }
 
         const parts = await generatePartData(directory);
-        fs.writeFileSync('./parts-list.json', JSON.stringify(parts, null, 4));
+        fs.writeFileSync('./src/data/parts-list.json', JSON.stringify(parts, null, 4));
         console.log('JSON generated successfully!');
     } catch (error) {
         console.error('Error generating JSON:', error);
