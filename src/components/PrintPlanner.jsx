@@ -19,7 +19,21 @@ import {
   IconButton,
   Select,
   Divider,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalCloseButton,
+  ModalBody,
+  useDisclosure,
+  Code,
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
 } from "@chakra-ui/react";
+
 import { FaCube, FaList, FaThLarge, FaTrash } from "react-icons/fa";
 import partsList from "../data/parts-list.json";
 import kits from "../data/kits.json";
@@ -115,6 +129,7 @@ export default function PrintPlanner() {
   const printList = buildPrintList(selectedParts);
   const [selectedKitId, setSelectedKitId] = useState("");
   const checklistRef = useRef(null);
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handleKitSelect = (kitId) => {
     setSelectedKitId(kitId);
@@ -223,6 +238,9 @@ export default function PrintPlanner() {
             size="sm"
           >
             Cards
+          </Button>
+          <Button onClick={onOpen} size="sm" variant="outline" ml={2}>
+            Show Debug JSON
           </Button>
         </HStack>
       </Flex>
@@ -553,6 +571,56 @@ export default function PrintPlanner() {
           )}
         </Box>
       )}
+      <Modal
+        isOpen={isOpen}
+        onClose={onClose}
+        size="4xl"
+        scrollBehavior="inside"
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Debug JSON Viewer</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <Tabs isFitted variant="enclosed" colorScheme="blue">
+              <TabList mb="1em">
+                <Tab>Parts</Tab>
+                <Tab>Kits</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <Code
+                    whiteSpace="pre"
+                    width="100%"
+                    maxH="60vh"
+                    overflow="auto"
+                    display="block"
+                    fontSize="sm"
+                    colorScheme="gray"
+                    p={2}
+                    borderRadius="md"
+                    children={JSON.stringify(partsList, null, 2)}
+                  />
+                </TabPanel>
+                <TabPanel>
+                  <Code
+                    whiteSpace="pre"
+                    width="100%"
+                    maxH="60vh"
+                    overflow="auto"
+                    display="block"
+                    fontSize="sm"
+                    colorScheme="gray"
+                    p={2}
+                    borderRadius="md"
+                    children={JSON.stringify(kits, null, 2)}
+                  />
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </Box>
   );
 }

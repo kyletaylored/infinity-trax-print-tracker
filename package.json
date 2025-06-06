@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2",
+    "@rjsf/chakra-ui": "^5.24.11",
+    "@rjsf/core": "^5.24.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0"

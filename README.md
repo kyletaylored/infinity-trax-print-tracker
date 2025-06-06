@@ -1,12 +1,44 @@
-# React + Vite
+# Infinity Trax Print Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React web app to plan and track 3D printing of Infinity Trax modular marble run parts, with kit presets and checklist/CSV export.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Select parts and specify quantities to print
+- Optionally load part kits (e.g., Turing Edition, Newton Edition)
+- Visual part cards, list, and a dynamic checklist
+- CSV export for 3D print planning
+- Debug JSON viewer for parts and kits
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+
+```
+
+npm install
+
+```
+
+2. **Start the app:**
+
+```
+
+npm run dev
+
+```
+
+3. **Open** `http://localhost:5173` in your browser.
+
+4. **Add or adjust your part and kit JSON files** in `/src/data/parts-list.json` and `/src/data/kits.json`.
+
+## File Structure
+
+- `src/components/PrintPlanner.jsx` — Main planner UI
+- `src/data/parts-list.json` — Parts data
+- `src/data/kits.json` — Kit presets
+
+---
+
+Requires Node.js and npm.  
+Built with React and Chakra UI.
